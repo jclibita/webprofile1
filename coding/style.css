@@ -75,3 +75,26 @@ a {
   margin-bottom: 20px;
 }
 
+ .card {
+            width: 30rem;
+            margin: 10rem;
+        }
+
+ .image-grid-container {
+            display: grid;
+              
+            /* For 3 columns */
+            grid-template-columns: auto auto auto;
+        }
+ #form{
+ 		border-radius: 10px;
+ 		background: green;
+ 		color: white;
+ 		width: 290px;
+ 		padding: 5px;
+ }
+
+ label{
+ 		width: 100px;
+ 		display: inline-block;
+ }
