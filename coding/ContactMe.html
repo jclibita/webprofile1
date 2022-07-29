@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+
+	<link rel="stylesheet" href="./style.css">
+
+	<title>Developer Portfolio</title>
+</head>
+
+<body>
+	<div>
+		<div class="fixed-top bg-dark text-center text-white py-2">
+			<a class="text-light text-decoration-none" href="./index.html">Home</a>
+			<a class="text-light text-decoration-none ml-5" href="./AboutMe.html">About Me</a>
+			<a class="text-light text-decoration-none ml-5" href="./Gallery.html">Gallery</a>
+			<a class="text-light text-decoration-none ml-5" href="ContactMe.html">Contact Me</a>
+		</div>
+	</div>
+
+			<div class="boarder-style:1">
+				<h2>Contact Form</h2>
+				<form>
+					<label for="First_Name">First Name:</label>
+					<input type="text" name="First_Name" required>
+					<label for="Last_Name">Last Name:</label>
+					<input type="text" name="Last_Name" required>
+					<label for="Email_Add">Email:</label><br />
+					<input type="Email" name="Email_Add" required>
+					<label for="Contact_Number">Contact Number:</label>
+					<input type="number" name="Contact_Number" required>
+					<label for="Service_Type">Service Type:</label>
+						<select name="Service_Type">
+							<option value="Service1">Front End Programming</option>
+							<option value="Service2">Back End Programming</option>
+							<option value="Service3">Full Stact Web Development</option>
+						</select>
+					
+					<label for="Preferred_Contact">Preferred Contact:</label><br />
+							<input type="checkbox" name="Preferred_Contact" id="Contact-type1">
+							<label for="Contact-type1">Email</label><br />
+							<input type="checkbox" name="Preferred_Contact" id="Contact-type2">
+							<label for="Contact-type2">Phone Package:</label><br />
+								<input type="radio" name="Contact-type2" id="package-type1">
+								<label for="Contact-type2">Basic</label><br />
+								<input type="radio" name="Contact-type2" id="package-type2">
+								<label for="Contact-type2">Premium</label><br />
+					<br />
+					<label for="messages">Message</label><br />
+					<textarea name="messages" rows="5" cols="20"></textarea><br />
+					<button type="submit">Send Inquiry</button><br />
+					<button type="reset">Reset</button>
+				</form>
+			</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+</body>
+</html>

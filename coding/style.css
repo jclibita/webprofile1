@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-size: 40px;
+	color: whitesmoke;
+}
+
+h3{
+	font-size: 20px;
+	color: ghostwhite;
+	text-align: center;
+}
+
+body{
+  background-image: url(./background.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: #cccccc;
+}
+
+.logo{
+		height: 100px;
+		width: 100px;
+    position: center;
+}
+
+img {
+  border: 5px solid #555;
+  height: 155px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#body-bg{
+	background-image: url(./dahon.jpg);
+	background-size: 100%;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container-fluid{
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 20px;
+	background-color: green;
+	height: 100vh;
+	opacity: 50%;
+	color: ghostwhite;
+}
+
+html{
+    overflow-x: hidden;
+
+}
+
+
+a:hover, a:active, a:focus {
+  color: ghostwhite;
+}
+
+a {
+  color: ghostwhite;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
